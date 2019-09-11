@@ -14,6 +14,6 @@ How do the diagrams help you visualize the branch structure?
 	Branches can go in many different directions, so a visual diagram can help represent what a branch can contain that's different than the main code, and even branches of branches.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-
+	Merging adds the stuff from the branch to the master. It contains the code insertions and deletions from both branches. We represent in a diagram like both arrows pointing the same commit because each commit (that has a parent) is included from both branches.
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
