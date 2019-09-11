@@ -1,8 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
-	When you make a new repository, it is empty of any commits. Preexisting files are not tracked yet. Initializing helps keep track of version history of the file for when you do commit it.
+	When you make a new repository, it is empty of any commits. Preexisting files are not tracked yet. Initializing a repo helps keep track of version history of the file for when you do commit it.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-
+	The staging area is the intermediary between the two. Changes can still be added to it but not committed and more changes can be added before becoming a commit of a different version. It allow the user to group files together per commit with as of a significant change as the user wants. So instead of going straight to committing a change, you can designate if you want to have certain documents changed together in a batch.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
