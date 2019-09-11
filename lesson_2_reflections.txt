@@ -17,3 +17,4 @@ the diagram the way we do?
 	Merging adds the stuff from the branch to the master. It contains the code insertions and deletions from both branches. We represent in a diagram like both arrows pointing the same commit because each commit (that has a parent) is included from both branches.
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+	With automatic merging, you don't have to constantly keep track of the merging and what code to include in both since both will always be included if they don't conflict. However, you have to make sure that someone else did not introduce a bug somewhere else before you merge. With manual merges, you choose what you keep and delete everytime so you won't keep any bugs, but it can tedious to combine two completely unrelated, functional parts each time you merge.
