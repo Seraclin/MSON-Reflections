@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    You can easily spot differences in syntax and spelling that might cause an error.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can find the spot where and when certain bugs are introduced. 
+    You can easily make changes that can be reverted when needed. 
+     If you end up making a error, you can easily compare what the differences between versions. Thus, you don't have to worry when making big changes.
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually:
++ Keep specified, user-created versions
++ Tells when and what changes you made
++ Can revert changes while maintaining edits
++ Files all commited at the same time can be tracked
+- Have to remember to commit
+- If you don't commit, then you can't revert
+    Automatically: 
++ Don't have to remember to commit
++ Changes constantly tracked
+- Reverting changes doesn't maintain edits
+- Records all version changes (even the uneccessary bad ones)
+- Harder to distinguish differences between each new version
+- Can't make sure that multiple files are committed together
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In case, you want all your files to be in sync for a version when you make a change, because the files depend on each other. Otherwise, you do it separately because each file is independent.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log allow you to see all the commits you've made and diff allows
+    you to see what the differences between each commits are.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can make all kinds of changes without having to worry about breaking
+    something. If you do break something, you can go back to a version where it was functional.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Git is for keeping track of versions for yourself and other users. I can use it to try more complicated code for something like a game and not have to worry about how making one big change could crash something.
