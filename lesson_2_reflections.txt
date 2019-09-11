@@ -9,9 +9,9 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+	When you want to experiment with a change, but don't want to interfere with your original code since it might not be permanent. You would want the branch to be separate from your master since you don't want to keep it for sure. Branches let you go down another path without having to change your good code.
 How do the diagrams help you visualize the branch structure?
-
+	Branches can go in many different directions, so a visual diagram can help represent what a branch can contain that's different than the main code, and even branches of branches.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
