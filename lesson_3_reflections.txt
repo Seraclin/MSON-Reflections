@@ -16,14 +16,14 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    So in case someone changes the code or adds a bug in the newest version, you can revert to a previous working version to use.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    It would be easier using GitHub because you can see what other branches and changes people make to your project and share it online. With git by itself, you can't share things online, but you can store things locally on your and your colleagues computers.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you want to do experimental but not permanent changes without causing the whole master to not work. If you do it in the master you don't have to worry about merging conflicts, but if you mess up you'll have to revert to a previous commit. When you do it in the branch, you can edit your code with the base master without having to worry about any bugs corrupting the main branch. But if the master changes while you're working on your edit you might get merge conflicts.
